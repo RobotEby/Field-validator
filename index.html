@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Field Validator</title>
+    </head>
+    <body>
+        <header>Field validator</header>
+        <div class="container">
+            <input
+                id="value"
+                type="text"
+                placeholder="Enter a value"
+                required
+            />
+            <select name="field" id="selector">
+                <option value="cpf">CPF</option>
+                <option value="hexColor">Cor Hexadecimal</option>
+                <option value="email">email</option>
+                <option value="uuid">UUID v4</option>
+                <option value="url">url</option>
+            </select>
+            <button id="validate">Validar</button>
+            <p id="answer">Enter a value and click Validate.</p>
+        </div>
+    </body>
+    <script type="module" src="./src/index.js"></script>
+</html>
