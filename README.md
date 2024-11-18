@@ -18,7 +18,7 @@ Siga os passos abaixo para clonar e executar este projeto localmente.
 1. **Clone o repositório:**
 
     ```sh
-    git clone https://github.com/seu-usuario/validador-de-campos.git
+    git clone git@github.com:RobotEby/Field-validator.git
     cd validador-de-campos
     ```
 
