@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "validator": "^13.12.0",
+    "vite": "^5.4.11"
+  },
+  "name": "field-validator",
+  "description": "Este repositório contém um projeto de validador de campos usando Vite e Validator.js. Ele oferece uma maneira eficiente e moderna de validar formulários de entrada em aplicações web.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobotEby/Field-validator.git"
+  },
+  "author": "Kerlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobotEby/Field-validator/issues"
+  },
+  "homepage": "https://github.com/RobotEby/Field-validator#readme"
+}
